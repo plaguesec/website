@@ -13,8 +13,9 @@ html {
 .background-image {
   position: absolute;
   z-index: -100;
-  width: 500px;
-  max-width: 60%;
+  width: 100%;
+  min-width: 510px;
+  max-width: 40%;
 }
 
 .background-image.left {
@@ -167,6 +168,11 @@ html {
     max-width: 95%;
   }
 
+  .background-image {
+    max-width: 70%;
+    min-width: 0;
+  }
+
   .header {
     align-items: flex-start;
     margin: 35px 0 20px;
@@ -192,7 +198,7 @@ html {
     padding: 5px 10px;
     align-self: flex-start;
     font-size: 25px;
-    margin-right: 5px;
+    margin-right: 7px;
   }
 
   .header__top-nav {
@@ -233,7 +239,7 @@ html {
     padding-right: 5px;
   }
   .content .content__text__title {
-    font-size: 32px;
+    font-size: 35px;
     margin: 10px 0;
   }
   .content .content__text__body {

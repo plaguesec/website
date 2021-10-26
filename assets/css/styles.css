@@ -59,7 +59,7 @@ html {
 .header .header__links ul {
   display: flex;
   flex-direction: row;
-  gap: 28px;
+  gap: 16px;
   font-size: 24px;
   list-style-type: none;
 }
@@ -67,13 +67,19 @@ html {
   color: #FFFFFF;
   text-decoration: none;
   transition: all 0.2s ease-out;
+  border: 0px solid transparent;
+  border-radius: 10px;
+  padding: 3px 12px;
+}
+.header .header__links .links__selected a {
+  color: #16D9CF;
 }
 .header .header__links a:hover {
-  color: #16D9CF;
+  color: #141414 !important;
+  background: #16D9CF;
 }
 .header .links__selected {
   font-weight: 700;
-  color: #16D9CF;
 }
 
 .content {

@@ -159,6 +159,10 @@ html {
     max-width: 100%;
   }
 
+  * {
+    border: 2px solid red;
+  }
+
   .header__logo {
     font-size: 16px;
   }
@@ -170,9 +174,20 @@ html {
   .content {
     flex-direction: column;
     width: 100%;
+
+    .content__text__title {
+      font-size: 22px;
+    }
   }
 
-  .content__image {
+
+  .content__image img {
     align-self: center;
+    width: 30%;
   }
+
+  #container div {
+    flex: 1;
+  }
+
 }

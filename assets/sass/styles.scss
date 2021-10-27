@@ -57,6 +57,7 @@ html {
     display: flex;
     align-items: center;
     font-size: 45px;
+    user-select: none;
 
     .logo--normal-weight {
       font-weight: 300;
@@ -207,7 +208,7 @@ html {
     }
 
     img {
-      width: 60px;
+      width: 65px;
     }
   }
 
@@ -245,12 +246,7 @@ html {
     align-items: flex-end;
     font-size: 16px;
     gap: 10px;
-    text-align: right;
     padding-left: 20px;
-  }
-
-  .header .responsive li a {
-    padding-right: 7px;
   }
 
   .content {
